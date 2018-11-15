@@ -1,0 +1,5 @@
+@NetSh AdvFirewall Set AllProfiles State On
+net accounts /minpwlen:8
+net accounts /maxpwage:30
+net accounts /minpwage:5
+set values[PasswordComplexity]=1
